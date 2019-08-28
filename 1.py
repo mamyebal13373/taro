@@ -66,7 +66,7 @@ def handle_start(message):
                  callback_button7,callback_button8,callback_button9,
                  callback_button10,callback_button11,callback_button12,
                  callback_button13,callback_button14,callback_button15)
-    bot.send_photo(message.from_user.id, open('/qwe/start.jpg', 'rb'), parse_mode="Markdown",reply_markup=keyboard, caption='Каждый день мы '
+    bot.send_photo(message.from_user.id, open('qwe/start.jpg', 'rb'), parse_mode="Markdown",reply_markup=keyboard, caption='Каждый день мы '
                                                                                                                              'задаемся '
                                                                                                                           'вопросом, что нас ждет в этот день, пытаемся понять какие перспективы нас ждут, какие решения нужно принять и соответственно сделать свой выбор. Мы надеемся и стремимся сделать наиболее правильный выбор, избежать ошибки. Расклад Карта дня таро позволяет взглянуть на ситуацию под другим углом, разобраться в том, что мы ощущаем интуицией, но до конца понять не можем. по одной карте можно определить ход событий на протяжении дня. Перед тем, как вытащить карту, подумайте — «каким будет мой день»"')
     # bot.send_message(message.chat.id, " Каждый день мы задаемся вопросом, что нас ждет в этот день, пытаемся понять какие перспективы нас ждут, какие решения нужно принять и соответственно сделать свой выбор. Мы надеемся и стремимся сделать наиболее правильный выбор, избежать ошибки. Расклад Карта дня таро позволяет взглянуть на ситуацию под другим углом, разобраться в том, что мы ощущаем интуицией, но до конца понять не можем. по одной карте можно определить ход событий на протяжении дня. Перед тем, как вытащить карту, подумайте — «каким будет мой день»"
@@ -309,47 +309,47 @@ def callback_inline1(message):
             bot.send_photo(message.from_user.id, open('D:/qwe/0.jpg', 'rb'), parse_mode="Markdown" ,caption=text)
             # bot.send_photo(message.from_user.id, open('files/video/','rb'), caption='желаемый текст')
         elif message.data == 1:
-                bot.send_photo(message.from_user.id, open('/qwe/1.jpg', 'rb'),parse_mode="Markdown", caption=text1)
+                bot.send_photo(message.from_user.id, open('qwe/1.jpg', 'rb'),parse_mode="Markdown", caption=text1)
         elif message.data == 2:
-                bot.send_photo(message.from_user.id, open('/qwe/2.jpg', 'rb'),parse_mode="Markdown", caption=text2)
+                bot.send_photo(message.from_user.id, open('qwe/2.jpg', 'rb'),parse_mode="Markdown", caption=text2)
         elif message.data == 3:
-                bot.send_photo(message.from_user.id, open('/qwe/3.jpg', 'rb'),parse_mode="Markdown", caption=text3)
+                bot.send_photo(message.from_user.id, open('qwe/3.jpg', 'rb'),parse_mode="Markdown", caption=text3)
         elif message.data == 4:
-                bot.send_photo(message.from_user.id, open('/qwe/4.jpg', 'rb'),parse_mode="Markdown", caption=text4)
+                bot.send_photo(message.from_user.id, open('qwe/4.jpg', 'rb'),parse_mode="Markdown", caption=text4)
         elif message.data == 5:
-                bot.send_photo(message.from_user.id, open('/qwe/5.jpg', 'rb'),parse_mode="Markdown", caption=text5)
+                bot.send_photo(message.from_user.id, open('qwe/5.jpg', 'rb'),parse_mode="Markdown", caption=text5)
         elif message.data == 6:
-                bot.send_photo(message.from_user.id, open('/qwe/6.jpg', 'rb'),parse_mode="Markdown", caption=text6)
+                bot.send_photo(message.from_user.id, open('qwe/6.jpg', 'rb'),parse_mode="Markdown", caption=text6)
         elif message.data == 7:
-                bot.send_photo(message.from_user.id, open('/qwe/7.jpg', 'rb'),parse_mode="Markdown", caption=text7)
+                bot.send_photo(message.from_user.id, open('qwe/7.jpg', 'rb'),parse_mode="Markdown", caption=text7)
         elif message.data == 8:
-                bot.send_photo(message.from_user.id, open('/qwe/8.jpg', 'rb'),parse_mode="Markdown", caption=text8)
+                bot.send_photo(message.from_user.id, open('qwe/8.jpg', 'rb'),parse_mode="Markdown", caption=text8)
         elif message.data == 9:
-                bot.send_photo(message.from_user.id, open('/qwe/9.jpg', 'rb'),parse_mode="Markdown", caption=text9)
+                bot.send_photo(message.from_user.id, open('qwe/9.jpg', 'rb'),parse_mode="Markdown", caption=text9)
         elif message.data == 10:
-                bot.send_photo(message.from_user.id, open('/qwe/10.jpg', 'rb'),parse_mode="Markdown", caption=text10)
+                bot.send_photo(message.from_user.id, open('qwe/10.jpg', 'rb'),parse_mode="Markdown", caption=text10)
         elif message.data == 11:
-                bot.send_photo(message.from_user.id, open('/qwe/11.jpg', 'rb'),parse_mode="Markdown", caption=text11)
+                bot.send_photo(message.from_user.id, open('qwe/11.jpg', 'rb'),parse_mode="Markdown", caption=text11)
         elif message.data == 12:
-                bot.send_photo(message.from_user.id, open('/qwe/12.jpg', 'rb'),parse_mode="Markdown", caption=text12)
+                bot.send_photo(message.from_user.id, open('qwe/12.jpg', 'rb'),parse_mode="Markdown", caption=text12)
         elif message.data == 13:
-                bot.send_photo(message.from_user.id, open('/qwe/13.jpg', 'rb'),parse_mode="Markdown", caption=text13)
+                bot.send_photo(message.from_user.id, open('qwe/13.jpg', 'rb'),parse_mode="Markdown", caption=text13)
         elif message.data == 14:
-                bot.send_photo(message.from_user.id, open('/qwe/14.jpg', 'rb'),parse_mode="Markdown", caption=text14)
+                bot.send_photo(message.from_user.id, open('qwe/14.jpg', 'rb'),parse_mode="Markdown", caption=text14)
         elif message.data == 15:
-                bot.send_photo(message.from_user.id, open('/qwe/15.jpg', 'rb'),parse_mode="Markdown", caption=text15)
+                bot.send_photo(message.from_user.id, open('qwe/15.jpg', 'rb'),parse_mode="Markdown", caption=text15)
         elif message.data == 16:
-                bot.send_photo(message.from_user.id, open('/qwe/16.jpg', 'rb'),parse_mode="Markdown", caption=text16)
+                bot.send_photo(message.from_user.id, open('qwe/16.jpg', 'rb'),parse_mode="Markdown", caption=text16)
         elif message.data == 17:
-                bot.send_photo(message.from_user.id, open('/qwe/17.jpg', 'rb'),parse_mode="Markdown", caption=text17)
+                bot.send_photo(message.from_user.id, open('qwe/17.jpg', 'rb'),parse_mode="Markdown", caption=text17)
         elif message.data == 18:
-                bot.send_photo(message.from_user.id, open('/qwe/18.jpg', 'rb'),parse_mode="Markdown", caption=text18)
+                bot.send_photo(message.from_user.id, open('qwe/18.jpg', 'rb'),parse_mode="Markdown", caption=text18)
         elif message.data == 19:
-                bot.send_photo(message.from_user.id, open('/qwe/19.jpg', 'rb'),parse_mode="Markdown", caption=text19)
+                bot.send_photo(message.from_user.id, open('qwe/19.jpg', 'rb'),parse_mode="Markdown", caption=text19)
         elif message.data == 20:
-                bot.send_photo(message.from_user.id, open('/qwe/20.jpg', 'rb'),parse_mode="Markdown", caption=text20)
+                bot.send_photo(message.from_user.id, open('qwe/20.jpg', 'rb'),parse_mode="Markdown", caption=text20)
         elif message.data == 21:
-                bot.send_photo(message.from_user.id, open('/qwe/21.jpg', 'rb'),parse_mode="Markdown", caption=text21)
+                bot.send_photo(message.from_user.id, open('qwe/21.jpg', 'rb'),parse_mode="Markdown", caption=text21)
 
         else:
             bot.send_message(message.from_user.id, "end")
