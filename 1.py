@@ -306,7 +306,7 @@ def callback_inline1(message):
 \n\n⚠️  Предупреждение: Не спешите почивать на лаврах,чтобы потом не жалеть об упущенном\
 \n\n✅  Совет: *Постарайтесь ускорить события самостоятельно*'
         if message.data == 0:
-            bot.send_photo(message.from_user.id, open('D:/qwe/0.jpg', 'rb'), parse_mode="Markdown" ,caption=text)
+            bot.send_photo(message.from_user.id, open('qwe/0.jpg', 'rb'), parse_mode="Markdown" ,caption=text)
             # bot.send_photo(message.from_user.id, open('files/video/','rb'), caption='желаемый текст')
         elif message.data == 1:
                 bot.send_photo(message.from_user.id, open('qwe/1.jpg', 'rb'),parse_mode="Markdown", caption=text1)
